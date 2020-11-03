@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+	<title>MoveCo Zimbabwe</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="html/moveco/css/bootstrap.min.css">
+	<link rel="stylesheet" href="html/moveco/css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="html/moveco/css/animations.css">
+	<link rel="stylesheet" href="html/moveco/css/fonts.css">
+	<script src="html/moveco/js/vendor/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">
+				<i class="rt-icon2-cross2"></i>
+			</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="index.html">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--		
+		<ul>
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4 col-lg-3 text-center text-sm-left">
+							<a href="index.html" class="logo">
+								<img src="html/moveco/images/logo.png" alt="">
+							</a>
+						</div>
+						<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
+							<div class="media inline-block text-uppercase semibold small-teaser text-left">
+								<div class="grey bold">Any question at</div>
+								074 799 6924
+							</div>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="#contact">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-house grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">100 Mopani ave</span>
+									<br> Centurion, Gauteng
+								</span>
+							</a>
+							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="#">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-envelope grey bold"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Send your mail at</span>
+									<br> movecozimbabwe@gmail.com
+								</span>
+							</a>
+							<div>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>
+								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="page_header header_darkgrey ms toggle_menu_left">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper">
+								<ul class="mainmenu nav sf-menu">
+									<li class="active">
+										<a href="index.html">Home</a>
+									</li>
+									<li>
+										<a href="#services">Services</a>
+										
+									</li>
+									<li>
+										<a href="#howitworks">How It Works</a>
+									</li>
+									
+									
+									</li>
+									
+									
+									<!-- contacts -->
+									<li>
+										<a href="#contact">Contact us</a>
+										
+									</li>
+									
+									<!-- eof contacts -->
+								</ul>
+							</nav>
+							<!-- eof main nav -->
+						</div>
+						<!-- eof .header_mainmenu -->
+						<div class="col-md-3 text-right">
+							<span class="toggle_menu">
+								<span></span>
+							</span>
+							<a href="#quote" class="theme_button">Get free quote</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="intro_section page_mainslider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li class="cs">
+							<img src="html/moveco/images/slide01.jpg" alt="">
+							<div class="bg_overlay">
+								<div class="frame"></div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="big">
+														Fast Moving?
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<p class="divider_20">
+														Want your passport / passport forms delivered fast, it's time to call
+														<span class="bold highlight2">MoveCo Zimbabwe</span>. We make it easy and faster than the others.
+													</p>
+												</div>
+												<div class="intro-layer to_animate" data-animation="fadeInLeft">
+													<a href="#quote" class="theme_button color2">Submit</a>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						
+						
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+			<section class="ls section_padding_top_65 section_padding_bottom_100 columns_margin_bottom_30 page_about">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-7">
+							<div class="framed-heading">
+								<h2 class="section_header">
+									We are
+									<span class="highlight2">MoveCo Zimbabwe</span>
+									<br>
+									
+								</h2>
+							</div>
+							<p>
+								Safe and Secure document delivery service company , with offices in Harare, Bulawayo, Mutare, 
+								Johannesburg , Pretoria and Capetown
+							</p>
+							<a href="#locations" class="theme_button topmargin_30">Locations</a>
+						</div>
+						<div class="col-md-5 col-lg-offset-1">
+							<div class="content-card with_background offset-card">
+								
+								<h3 class="bold text-uppercase inverse_bg_color text-center"><span>Other Locations</span> <br>get a quote</h3>
+								<div class="with_padding">
+									<form class="quote-form" method="post" action="index.html">
+										<div class="form-group">
+											<label for="quote-name" class="sr-only">Name
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-avatar highlight"></i>
+												<input type="text" aria-required="true" size="30" value="" name="quote-name" id="quote-name" class="form-control" placeholder="Name">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="quote-email" class="sr-only">E-mail
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-envelope highlight"></i>
+												<input type="text" aria-required="true" size="30" value="" name="quote-email" id="quote-email" class="form-control" placeholder="E-mail">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="quote-phone" class="sr-only">Phone
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-phone-call highlight"></i>
+												<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Phone">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="send-from" class="sr-only">Send From
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-house highlight"></i>
+												<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Send From">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="destination" class="sr-only">Destination
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-house highlight"></i>
+												<input type="text" aria-required="true" size="30" value="" name="quote-phone" id="quote-phone" class="form-control" placeholder="Destination">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="quote-description" class="sr-only">Additional Details
+												<span class="required">*</span>
+											</label>
+											<div class="input-group">
+												<i class="flaticon-edit highlight"></i>
+												<textarea aria-required="true" rows="5" cols="45" name="quote-description" id="quote-description" class="form-control" placeholder="Additional Details"></textarea>
+											</div>
+										</div>
+										<div class="text-center topmargin_40">
+											<button type="submit" id="quote_submit" name="quote_submit" class="theme_button color2">Send request</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section_padding_140 page_services intro_section2" >
+				<div class="howitworks"></div>
+				<div class="container-fluid">
+					<div class="row columns_margin_bottom_20">
+						<div class="col-md-8 content-block-left ls to_animate" data-animation="fadeInLeft">
+							<div class="row">
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-house grey"></i>
+											</div>
+										</div>
+										<div class="media-body ">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">1. Submit Documents</h4>
+											<p>
+												Submit your forms / documents to one of our collection points located to make the process as efficient and
+												stress free as possible.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-package grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">3. Safe & Secure</h4>
+											<p>
+												All documents are sealed ,secured , transported from our stores 
+												to the clients desired destination as fast as possible with 24 hour security.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-truck grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">2. Locations</h4>
+											<p>
+												Submitting / Collection stores
+												<br> 1. Johannesburg (Zim consulate pop up store),
+												<br>2. Cape Town , 
+												<br>3. Centurion,
+												<br>4. Harare CBD, 
+												<br>5. Bulawayo CBD.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6 to_animate" data-animation="pullDown">
+									<div class="media teaser">
+										<div class="media-left">
+											<div class="teaser_icon size_normal">
+												<i class="flaticon-trolley grey"></i>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">4. Pick Up</h4>
+											<p>
+												 The person assigned for collection only has to bring an ID and copy of the receipt 
+												 to collect to documents.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 content-block-right cs to_animate" data-animation="fadeInRightLong">
+							<div class="to_animate" data-animation="fadeInRight" data-delay="300">
+								<div class="framed-heading side-frame">
+									<h2 class="section_header">
+										How
+										<br> It Works
+									</h2>
+								</div>
+								<p>
+									O
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ls section_padding_100 columns_margin_bottom_30 section_padding_bottom_75">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-like"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="2500" data-speed="1800">0</h3>
+									<p class="small-text">+clients & growing, trust in us</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-truck-1"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="5000" data-speed="1800">0</h3>
+									<p class="small-text">+ docs succesfully delivered</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="teaser counter-teaser media inline-block text-left">
+								<div class="media-left media-middle">
+									<div class="teaser_icon highlight2 size_big">
+										<i class="flaticon-trolley"></i>
+									</div>
+								</div>
+								<div class="media-body media-middle">
+									<h3 class="counter" data-from="0" data-to="24" data-speed="1800">0</h3>
+									<p class="small-text">Hour Security</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			
+			
+			
+			
+			<section class="ls section_padding_top_75 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="framed-heading">
+								<h2 class="section_header">
+									Our Prices
+								</h2>
+							</div>
+							<div class="prices-row topmargin_50">
+								<div class="price-table-wrap">
+									<ul class="price-table style2">
+										<li class="plan-name">
+											<h3>SA to HARARE</h3>
+											<p>Passport Forms</p>
+											
+										</li>
+										<li class="plan-price">R 100</li>
+										<li class="features-list">
+											<ul>
+												<li class="enabled">Safe and Secure</li>
+												<li class="enabled">Same Week Delivery</li>
+												<li class="enabled">Submit at our Bedfordview or Centurion stores</li>
+												<li class="enabled">Collection in Harare CBD</li>
+											</ul>
+										</li>
+										<li class="call-to-action">
+											<a href="#" class="theme_button inverse">Order now</a>
+										</li>
+									</ul>
+								</div>
+								<div class="price-table-wrap ">
+									<ul class="price-table style2">
+										<li class="plan-name">
+											<h3>SA to BULAWAYO</h3>
+											<p>Passport Forms</p>
+										</li>
+										<li class="plan-price">R 100</li>
+										<li class="features-list">
+											<ul>
+												<li class="enabled">Safe and Secure</li>
+												<li class="enabled">Same Week Delivery</li>
+												<li class="enabled">Submit at our Bedfordview or Centurion stores</li>
+												<li class="enabled">Collection in Bulawayo CBD</li>
+											</ul>
+										</li>
+										<li class="call-to-action">
+											<a href="#" class="theme_button inverse">Order now</a>
+										</li>
+									</ul>
+								</div>
+								<div class="price-table-wrap ">
+									<ul class="price-table style2">
+										<li class="plan-name">
+											<h3>Cape Town to ZIM</h3>
+											<p>Passport Forms</p>
+										</li>
+										<li class="plan-price">R 200</li>
+										<li class="features-list">
+											<ul>
+												<li class="enabled">Safe and Secure</li>
+												<li class="enabled">Same Week Delivery</li>
+												<li class="enabled">Submit at our Bedfordview or Centurion stores</li>
+												<li class="enabled">Collection in Bulawayo CBD</li>
+											</ul>
+										</li>
+										<li class="">
+											<a href="#" class="theme_button inverse">Order now</a>
+										</li>
+									</ul>
+								</div>
+								<div class="price-table-wrap highlighted">
+									<ul class="price-table style2">
+										<li class="plan-name">
+											<h3>ZIM to JHB </h3>
+											<p>New Passport</p>
+										</li>
+										<li class="plan-price">R 200</li>
+										<li class="features-list">
+											<ul>
+												<li class="enabled">Safe and Secure</li>
+												
+												<li class="enabled">Same Week Delivery</li>
+												<li class="enabled">Collection in Bedfordview </li>
+											</ul>
+										</li>
+										<li class="call-to-action">
+											<a href="#" class="theme_button inverse">Order now</a>
+										</li>
+									</ul>
+								</div>
+								<div class="price-table-wrap highlighted">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="cs section_padding_top_100 section_padding_bottom_75 parallax page_testimonials columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="framed-heading side-frame">
+								<h2 class="section_header">
+									Clients
+									<br> say
+								</h2>
+							</div>
+							
+						</div>
+						<div class="col-lg-8">
+							<div class="owl-carousel testimonials-carousel margin_0" data-responsive-lg="2" data-responsive-md="2" data-responsive-sm="2" data-responsive-xs="1" data-nav="true" data-nav-container=".testimonials-carousel-nav">
+								<blockquote class="margin_0">
+									Easy process, my forms were delivered without any damages. 
+									<div class="item-meta">
+										<h5 class="highlight2">Charles Chatindo</h5>
+										
+									</div>
+								</blockquote>
+								<blockquote class="margin_0">
+									Sed vitae ex quis tellus consectet accumsan et non sem. Sed consectetur at lacus ac vehicula. Maecenas eleifend.
+									<div class="item-meta">
+										<h5 class="highlight2">George Mwanza</h5>
+										
+									</div>
+								</blockquote>
+								<blockquote class="margin_0">
+									Fusce lacinia, urna nec molestie congue, ante justo hendrerit risus, quis suscipit sapien leo et est. Fusce nec suscipit risus.
+									<div class="item-meta">
+										<h5 class="highlight2">Tapiwa</h5>
+										<p>Manager</p>
+									</div>
+								</blockquote>
+								<blockquote class="margin_0">
+									Sed vitae ex quis tellus consectet accumsan et non sem. Sed consectetur at lacus ac vehicula. Maecenas eleifend.
+									<div class="item-meta">
+										<h5 class="highlight2">Michelle</h5>
+										<p>Director</p>
+									</div>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid testimonials-carousel-nav owl-nav"></div>
+			</section>
+			<!--<section class="ls section_padding_top_75 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="framed-heading bottommargin_15">
+								<h2 class="section_header">
+									Our Clients
+								</h2>
+							</div>
+							<p>
+								Phasellus efficitur, massa posuere ultricies faucibus, purus ante dapibus tellus, ut venenatis massa magna ut justo. Nunc in molestie lectus eleifend.
+							</p>
+						</div>
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/01.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/02.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/03.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/04.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/05.png" alt="" />
+							</a>
+						</div>
+						<div class="col-md-2 col-sm-4 col-xs-6 text-center to_animate" data-animation="pullUp">
+							<a href="#" class="partner-link">
+								<img src="html/moveco/images/partners/06.png" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>-->
+			<section class="cs section_padding_40">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="media inline-block small-teaser text-left teaser-link">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-phone-call"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Any question at</span>
+									<br> 074 799 6927
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<a class="media inline-block small-teaser text-left teaser-link" href="html/moveco/contact.html">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-house"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">100 Mopani</span>
+									<br> Centurion, Gauteng
+								</span>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="media inline-block small-teaser text-left teaser-link">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round dark">
+										<i class="flaticon-paper-plane"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Mon-Sun</span>
+									<br> 08:00-13:00
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<a class="media inline-block small-teaser text-left teaser-link" href="#contact">
+								<span class="media-left media-middle">
+									<span class="teaser_icon border_icon round">
+										<i class="flaticon-envelope"></i>
+									</span>
+								</span>
+								<span class="media-body media-middle semibold">
+									<span class="bold grey">Send your mail at</span>
+									<br> info@movecozimbabwe.co.za
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="page_footer ds ms color section_padding_75 columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<img src="html/moveco/images/logo-light.png" alt="">
+							<p class="topmargin_40 bottommargin_30">
+								 Get your documents delivered fast and secure 
+							</p>
+							<div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-facebook"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-twitter"></a>
+								<a href="#" class="social-icon bg-icon theme-bg-icon rounded-icon soc-instagram"></a>
+							
+						</div>
+						
+					</div>
+				</div>
+			</footer>
+			<section class="page_copyright cs main_color2 section_padding_15 columns_margin_0">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; MoveCo Zimbabwe | Created with
+								<i class="fa fa-heart-o highlight"></i> by
+								<a href="#">Net Ninja Ray</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+	<script src="html/moveco/js/compressed.js"></script>
+	<script src="html/moveco/js/main.js"></script>
+	<script src="html/moveco/js/switcher.js"></script>
+ </body>
+</html>
