@@ -50,7 +50,7 @@
 	</div>
 	<!-- Unyson messages modal -->
 	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
+		<div >
 			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
 			<!--		
 		<ul>
@@ -69,13 +69,12 @@
 					<div class="row">
 						<div class="col-sm-4 col-lg-3 text-center text-sm-left">
 							<a href="index.html" class="logo">
-								<img src="html/moveco/images/logo102.jpg" alt="">
+								<img src="html/moveco/images/logo102.jpg" alt="logo" id="home">
 							</a>
 						</div>
 						<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
 							<div class="media inline-block text-uppercase semibold small-teaser text-left">
-								<div class="grey bold">Any question at</div>
-								074 799 6924
+								+27 081 474 3199
 							</div>
 							<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" href="#contact">
 								<span class="media-left media-middle">
@@ -83,8 +82,8 @@
 										<i class="flaticon-house grey bold"></i>
 									</span>
 								</span>
-								<span class="media-body media-middle semibold">
-									<span class="bold grey">100 Mopani ave</span>
+								<span class="media-body media-middle semibold" >
+									<span class="bold grey">37 West street</span>
 									<br> Centurion, Gauteng
 								</span>
 							</a>
@@ -102,7 +101,6 @@
 							<div>
 								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
 								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-twitter"></a>
-								<a href="#" class="social-icon border-icon rounded-icon theme-color2-icon soc-google"></a>
 							</div>
 						</div>
 					</div>
@@ -113,23 +111,21 @@
 					<div class="row">
 						<div class="col-md-9">
 							<!-- main nav start -->
-							<nav class="mainmenu_wrapper">
+							<nav class="">
 								<ul class="mainmenu nav sf-menu">
 									<li class="active">
-										<a href="index.html">Home</a>
+										<a href="#home">Home</a>
 									</li>
 									<li>
 										<a href="#services">Services</a>
 										
 									</li>
 									<li>
-										<a href="howitworks">How It Works</a>
+										<a href="#howitworks">How It Works</a>
 									</li>
-									
-									
+									<li>
+										<a href="#prices">Prices</a>
 									</li>
-									
-									
 									<!-- contacts -->
 									<li>
 										<a href="#contact">Contact us</a>
@@ -146,7 +142,7 @@
 							<span class="toggle_menu">
 								<span></span>
 							</span>
-							<a href="#quote" class="theme_button">Get free quote</a>
+							<a href="#quote" class="theme_button">Custom Quote</a>
 						</div>
 					</div>
 				</div>
@@ -216,7 +212,7 @@
 						</div>
 						<div class="col-md-5 col-lg-offset-1">
 							<div class="content-card with_background offset-card">
-								
+								<p id="quote"></p>
 								<h3 class="bold text-uppercase inverse_bg_color text-center"><span>Other Locations</span> <br>get a quote</h3>
 								<div class="with_padding">
 									<form class="quote-form" method="post" action="index.html">
@@ -285,7 +281,7 @@
 				</div>
 			</section>
 			<section class="section_padding_140 page_services intro_section2" >
-				<div id="#howitworks"></div>
+				<p id="howitworks"></p>
 				<div class="container-fluid">
 					<div class="row columns_margin_bottom_20">
 						<div class="col-md-8 content-block-left ls to_animate" data-animation="fadeInLeft">
@@ -331,7 +327,7 @@
 										</div>
 										<div class="media-body">
 											<h4 class="text-uppercase fontsize_20 extrabold bottommargin_20">2. Locations</h4>
-											<p>
+											<p id="locations">
 												Submitting / Collection stores
 												<br> 1. Johannesburg (Zim consulate pop up store),
 												<br>2. Cape Town , 
@@ -435,6 +431,7 @@
 									Our Prices
 								</h2>
 							</div>
+							<p id="prices"></p>
 							<div class="prices-row topmargin_50">
 								<div class="price-table-wrap">
 									<ul class="price-table style2">
@@ -543,28 +540,30 @@
 									Easy process, my forms were delivered without any damages. 
 									<div class="item-meta">
 										<h5 class="highlight2">Charles Chatindo</h5>
+										<p>Harare</p>
 										
 									</div>
 								</blockquote>
 								<blockquote class="margin_0">
-									Sed vitae ex quis tellus consectet accumsan et non sem. Sed consectetur at lacus ac vehicula. Maecenas eleifend.
+									Trustworthy and Fast
 									<div class="item-meta">
 										<h5 class="highlight2">George Mwanza</h5>
+										<p>Bulawayo</p>
 										
 									</div>
 								</blockquote>
 								<blockquote class="margin_0">
-									Fusce lacinia, urna nec molestie congue, ante justo hendrerit risus, quis suscipit sapien leo et est. Fusce nec suscipit risus.
+									I highly recommend MoveCo for transporting documents, cheaper than others
 									<div class="item-meta">
 										<h5 class="highlight2">Tapiwa</h5>
-										<p>Manager</p>
+										<p>Mutare</p>
 									</div>
 								</blockquote>
 								<blockquote class="margin_0">
-									Sed vitae ex quis tellus consectet accumsan et non sem. Sed consectetur at lacus ac vehicula. Maecenas eleifend.
+									It's hard to find competitive prices and good service at the same time but that's MoveCo
 									<div class="item-meta">
 										<h5 class="highlight2">Michelle</h5>
-										<p>Director</p>
+										<p>Bulawayo</p>
 									</div>
 								</blockquote>
 							</div>
@@ -631,9 +630,9 @@
 										<i class="flaticon-phone-call"></i>
 									</span>
 								</span>
-								<span class="media-body media-middle semibold">
+								<span class="media-body media-middle semibold" id="contact">
 									<span class="bold grey">Any question at</span>
-									<br> 074 799 6927
+									<br> +27 081 474 3199
 								</span>
 							</div>
 						</div>
@@ -645,7 +644,7 @@
 									</span>
 								</span>
 								<span class="media-body media-middle semibold">
-									<span class="bold grey">100 Mopani</span>
+									<span class="bold grey">37 West street</span>
 									<br> Centurion, Gauteng
 								</span>
 							</a>
@@ -672,7 +671,7 @@
 								</span>
 								<span class="media-body media-middle semibold">
 									<span class="bold grey">Send your mail at</span>
-									<br> info@movecozimbabwe.co.za
+									<br> movecozimbabwe@gmail.com
 								</span>
 							</a>
 						</div>
@@ -683,7 +682,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-sm-12">
-							<img src="html/moveco/images/logo-light.png" alt="">
+							<a href="#home"><img src="html/moveco/images/logo-light.png" alt="logo"></a>
 							<p class="topmargin_40 bottommargin_30">
 								 Get your documents delivered fast and secure 
 							</p>
